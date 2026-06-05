@@ -1,0 +1,132 @@
+# Secrets and API Keys
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+.streamlit/secrets.toml
+config.json
+credentials.json
+.aws/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+.venv
+venv
+env
+ENV
+.env
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.iml
+.gradle
+
+# OS Files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+*.cab
+
+# Logs
+*.log
+logs/
+*.log.*
+npm-debug.log*
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build and Distribution
+dist/
+build/
+*.egg-info/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Machine Learning Models
+# *.h5 (keep trained_model.h5 tracked)
+*.keras
+*.pkl
+*.pickle
+
+# Data files (large datasets)
+Plant_Disease_Dataset/
+# *.csv
+# *.xlsx
+
+# Temporary Files
+*.tmp
+*.bak
+*~
+.~*
+$*
+#*#
+*.swp
+*.swo
+.project
+.classpath
+
+# IDE specific folders
+.vscode/
+.idea/
+*.code-workspace
+
+# Miscellaneous
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
